@@ -1,0 +1,22 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.accengage.react.plugin">
+    <application>
+        <service
+            android:name="com.ad4screen.sdk.RefreshTokenService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.ad4screen.sdk.plugins.fcm.FcmMessageListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>
+  
