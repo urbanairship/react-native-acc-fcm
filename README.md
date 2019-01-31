@@ -30,6 +30,6 @@
 
 ## Usage
 ```javascript
-import FCMPlugin from 'react-native-acc-fcm';
+import RNAccFcm from 'react-native-acc-fcm';
 ```
   
