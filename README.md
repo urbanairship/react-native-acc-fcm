@@ -3,11 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-react-native-acc-fcm --save`
+`$ npm install react-native-acc-fcm --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-react-native-acc-fcm`
+`$ react-native link react-native-acc-fcm`
 
 ### Manual installation
 
