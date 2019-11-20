@@ -35,7 +35,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ad4screen.sdk:plugin-firebase-messaging:4.0.3'
+    implementation 'com.ad4screen.sdk:plugin-firebase-messaging:4.0.4'
     implementation 'com.google.firebase:firebase-core:16.0.4'
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
 }
